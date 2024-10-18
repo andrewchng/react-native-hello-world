@@ -12,8 +12,7 @@ const styles = StyleSheet.create({
     footer: {
       backgroundColor: "#F4CE14",
       marginBottom: 10,
-      // justifyContent: 'center',
-      // alignItems: 'center',
+
     },
     footerText: {
       fontSize: 18,
