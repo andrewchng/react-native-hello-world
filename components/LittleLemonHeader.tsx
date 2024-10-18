@@ -1,3 +1,4 @@
+import { Colors } from "@/constants/Colors";
 import { View, Text,StyleSheet } from "react-native";
 
 export default function LittleLemonHeader() {
@@ -13,7 +14,7 @@ export default function LittleLemonHeader() {
 const styles = StyleSheet.create({
   header: {
     flex: 0.2,
-    backgroundColor: "#F4CE14",
+    backgroundColor: Colors.primary,
   },
   headerText: { 
     fontSize: 30, 

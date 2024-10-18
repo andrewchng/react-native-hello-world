@@ -1,3 +1,4 @@
+import { Colors } from "@/constants/Colors";
 import { View, Text, StyleSheet } from "react-native";
 
 export default function Footer() {
@@ -10,7 +11,7 @@ export default function Footer() {
 
 const styles = StyleSheet.create({
     footer: {
-      backgroundColor: "#F4CE14",
+      backgroundColor: Colors.primary,
       marginBottom: 10,
 
     },

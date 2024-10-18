@@ -1,3 +1,4 @@
+import { Colors } from "@/constants/Colors";
 import { View, Text, StyleSheet, ScrollView } from "react-native";
 
 export default function Content() {
@@ -19,7 +20,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 30,
-    color: "white",
+    color: Colors.textColor,
     textAlign: "center",
     marginTop: 40,
     marginBottom: 40,
@@ -27,7 +28,7 @@ const styles = StyleSheet.create({
   content: {
     fontSize: 40,
     padding: 20,
-    color: "white",
+    color: Colors.textColor,
     textAlign: "center",
   },
 });
