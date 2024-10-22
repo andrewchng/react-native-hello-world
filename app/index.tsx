@@ -15,9 +15,9 @@ export default function Index() {
       {/* <Content></Content> */}
     </View>
 
-    <View style={styles.footerContainer}>
+    {/* <View style={styles.footerContainer}>
       <Footer />
-    </View>
+    </View> */}
   </>
   );
 }
