@@ -1,4 +1,5 @@
 import Content from "@/components/Content";
+import FeedbackForm from "@/components/FeedbackForm";
 import LittleLemonFooter from "@/components/LittleLemonFooter";
 import LittleLemonHeader from "@/components/LittleLemonHeader";
 import MenuItems from "@/components/MenuItems";
@@ -11,7 +12,8 @@ export default function Index() {
     <View
       style={styles.headerContainer}>
       <LittleLemonHeader />
-      <MenuItems/>
+      {/* <MenuItems/> */}
+      <FeedbackForm></FeedbackForm>
     </View>
    <View style={styles.footerContainer}>
       <LittleLemonFooter />
