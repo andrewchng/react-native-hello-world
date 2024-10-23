@@ -1,5 +1,5 @@
 import Content from "@/components/Content";
-import Footer from "@/components/footer";
+import LittleLemonFooter from "@/components/LittleLemonFooter";
 import LittleLemonHeader from "@/components/LittleLemonHeader";
 import MenuItems from "@/components/MenuItems";
 import { Colors } from "@/constants/Colors";
@@ -12,12 +12,10 @@ export default function Index() {
       style={styles.headerContainer}>
       <LittleLemonHeader />
       <MenuItems/>
-      {/* <Content></Content> */}
     </View>
-
-    {/* <View style={styles.footerContainer}>
-      <Footer />
-    </View> */}
+   <View style={styles.footerContainer}>
+      <LittleLemonFooter />
+    </View> 
   </>
   );
 }

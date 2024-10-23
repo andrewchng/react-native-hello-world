@@ -1,7 +1,7 @@
 import { Colors } from "@/constants/Colors";
 import { View, Text, StyleSheet } from "react-native";
 
-export default function Footer() {
+export default function LittleLemonFooter() {
     return (
         <View style={styles.footer}>
             <Text style={styles.footerText}>All rights reserved by, Little Lemon 2022</Text>
