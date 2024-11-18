@@ -2,7 +2,9 @@ import Content from "@/components/Content";
 import FeedbackForm from "@/components/FeedbackForm";
 import LittleLemonFooter from "@/components/LittleLemonFooter";
 import LittleLemonHeader from "@/components/LittleLemonHeader";
+import LoginScreen from "@/components/LoginScreen";
 import MenuItems from "@/components/MenuItems";
+import WelcomeScreen from "@/components/WelcomeScreen";
 import { Colors } from "@/constants/Colors";
 import { Text, View, StyleSheet } from "react-native";
 
@@ -13,7 +15,9 @@ export default function Index() {
       style={styles.headerContainer}>
       <LittleLemonHeader />
       {/* <MenuItems/> */}
-      <FeedbackForm></FeedbackForm>
+      <WelcomeScreen/>
+      <LoginScreen/>
+      {/* <FeedbackForm></FeedbackForm> */}
     </View>
    <View style={styles.footerContainer}>
       <LittleLemonFooter />
